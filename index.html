@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="slidebar" >
+        <div id="close" onclick="CloseSlider()">
+                  
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="logo">
+            <img class="logo-img" src="img/logo.png" alt="">
+            <h2 class="brand">Dashboard</h2>
+        </div>
+        <div class="menu">
+            <div class="actions">
+                <ul class="action-list">
+                    <li class="item">
+                        <i class="icon fa-sharp fa-solid fa-house"></i>
+                        Home
+                    </li>
+                    <li class="item">
+                        <i class="icon fa-regular fa-address-card"></i>
+                        Profile
+                    </li>
+                    <li class="item">
+                        <i class="icon fa-solid fa-message"></i>
+                        Message
+                    </li>
+                    <li class="item">
+                        <i class="icon fa-solid fa-clock"></i>
+                        History
+                    </li>
+                    <li class="item">
+                        <i class="icon fa-solid fa-file"></i>
+                        Tasks
+                    </li>
+                    <li class="item">
+                        <i class="icon fa-solid fa-users"></i>
+                        Communities
+                    </li>
+                </ul>
+            </div>
+
+            <div class="settings">
+                <ul class="setting-list">
+                    <li class="item">
+                        <i class="icon fa-solid fa-gear"></i>
+                        Settings
+                    </li>
+                    <li class="item">
+                        <i class="icon fa-solid fa-circle-question"></i>
+                        Support
+                    </li>
+                    <li class="item">
+                        <i class="icon fa-solid fa-square-check"></i>
+                        Privacy
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="right-content">
+        <div class="header">
+           
+            <div class="header-top">
+               
+                <div id="bars"  onclick="OpenSlider()">
+                  
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="search">
+                    <i class="icon-search fa-solid fa-magnifying-glass"></i>
+                    <input type="text" value="">
+                </div>
+                <div class="notifi">
+                    <div>
+                        <i class="fa-regular fa-bell"></i>
+                    </div>
+                  <div>
+                    <img class="avatar" src="img/avatar.png" alt="Avatar">
+                  </div> 
+                  <div class="name-user">
+                     Morgan Oakley
+                  </div>
+                    
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="info">
+                    <div class="img-avatar"><img  src="img/avatar.png" alt="Avatar"></div>
+                    <div class="usemane">
+                        <strong>Hi there,</strong>
+                        <h2>Morgan Oakley (@morgan)</h2>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <ul class="button-list">
+                        <li>
+                            <button>New</button>
+                        </li>
+                        <li>
+                            <button>Upload</button>
+                        </li>
+                        <li>
+                            <button>Share</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="info-content">
+                
+                <div class="info-left">
+                    <h3>Your Projects</h3>
+                    <ul class="card-list">
+                        <li class="card">
+                            <div >
+                                <h3>Super Cool Project</h3>
+                                <p class="content">Sed tempus ut lacus ut scelerisque.
+                                    Suspendisse sollicitudin nibh erat, 
+                                    id facilisis felis accumsan nec.
+                                </p>
+                              
+                                    <ul class="card-list-icon">
+                                        <li class="card-img-icon"><img src="img/star-plus-outline.png" alt=""></li>
+                                        <li class="card-img-icon"><img src="img/eye-plus-outline.png" alt=""></li>
+                                        <li class="card-img-icon"><img src="img/share-variant-outline.png" alt=""></li>
+                                    </ul>
+                                
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div >
+                                <h3>Super Cool Project</h3>
+                                <p class="content">Sed tempus ut lacus ut scelerisque.
+                                    Suspendisse sollicitudin nibh erat, 
+                                    id facilisis felis accumsan nec.
+                                </p>
+                                
+                                    <ul class="card-list-icon">
+                                        <li class="card-img-icon"><img src="img/star-plus-outline.png" alt=""></li>
+                                        <li class="card-img-icon"><img src="img/eye-plus-outline.png" alt=""></li>
+                                        <li class="card-img-icon"><img src="img/share-variant-outline.png" alt=""></li>
+                                    </ul>
+                             
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div >
+                                <h3>Super Cool Project</h3>
+                                <p class="content">Sed tempus ut lacus ut scelerisque.
+                                    Suspendisse sollicitudin nibh erat, 
+                                    id facilisis felis accumsan nec.
+                                </p>
+                              
+                                    <ul class="card-list-icon">
+                                        <li class="card-img-icon"><img src="img/star-plus-outline.png" alt=""></li>
+                                        <li class="card-img-icon"><img src="img/eye-plus-outline.png" alt=""></li>
+                                        <li class="card-img-icon"><img src="img/share-variant-outline.png" alt=""></li>
+                                    </ul>
+                              
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div >
+                                <h3>Super Cool Project</h3>
+                                <p class="content">Sed tempus ut lacus ut scelerisque.
+                                    Suspendisse sollicitudin nibh erat, 
+                                    id facilisis felis accumsan nec.
+                                </p>
+                              
+                                    <ul class="card-list-icon">
+                                        <li class="card-img-icon"><img src="img/star-plus-outline.png" alt=""></li>
+                                        <li class="card-img-icon"><img src="img/eye-plus-outline.png" alt=""></li>
+                                        <li class="card-img-icon"><img src="img/share-variant-outline.png" alt=""></li>
+                                    </ul>
+                               
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div >
+                                <h3>Super Cool Project</h3>
+                                <p class="content">Sed tempus ut lacus ut scelerisque.
+                                    Suspendisse sollicitudin nibh erat, 
+                                    id facilisis felis accumsan nec.
+                                </p>
+                              
+                                    <ul class="card-list-icon">
+                                        <li class="card-img-icon"><img src="img/star-plus-outline.png" alt=""></li>
+                                        <li class="card-img-icon"><img src="img/eye-plus-outline.png" alt=""></li>
+                                        <li class="card-img-icon"><img src="img/share-variant-outline.png" alt=""></li>
+                                    </ul>
+                                
+                            </div>
+                        </li>
+                        <li class="card">
+                            <div >
+                                <h3>Super Cool Project</h3>
+                                <p class="content">Sed tempus ut lacus ut scelerisque.
+                                    Suspendisse sollicitudin nibh erat, 
+                                    id facilisis felis accumsan nec.
+                                </p>
+                              
+                                    <ul class="card-list-icon">
+                                        <li class="card-img-icon"><img src="img/star-plus-outline.png" alt=""></li>
+                                        <li class="card-img-icon"><img src="img/eye-plus-outline.png" alt=""></li>
+                                        <li class="card-img-icon"><img src="img/share-variant-outline.png" alt=""></li>
+                                    </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="info-right">
+                    <h3>Announcements</h3>
+                    <div class="announ">
+                        <ul>
+                            <li class="card-announce">
+                                <h4>Site Maintenance</h4>
+                                <span class="content-announce">Vestibulum condimentum tellus lacus, in accumsan elit maximus ac.
+                                    Donec hendrerit sodales congue...
+                                </span>
+                            </li>
+                            <li class="card-announce">
+                                <h4>Site Maintenance</h4>
+                                <span class="content-announce">Vestibulum condimentum tellus lacus, in accumsan elit maximus ac.
+                                    Donec hendrerit sodales congue...
+                                </span>
+                            </li>
+                            <li class="card-announce">
+                                <h4>Site Maintenance</h4>
+                                <span class="content-announce">Vestibulum condimentum tellus lacus, in accumsan elit maximus ac.
+                                    Donec hendrerit sodales congue...
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <h3>Trending</h3>
+                    <div class="trending">
+                        <ul>
+                            <li class="card-trending"><div class="card-info">
+                                <div class="card-item"><img src="img/avatar1.png" alt="Avatar"></div>
+                                <div class="card-info-name">
+                                    <div class="tag-name"><strong>@tenga</strong></div>
+                                    <div class="project-trending"> World Peace Builder</div>
+                                </div>
+                            </div></li>
+                            <li class="card-trending"><div class="card-info">
+                                <div class="card-item"><img src="img/avatar.png" alt="Avatar"></div>
+                                <div class="card-info-name">
+                                    <div class="tag-name"><strong>@tenga</strong></div>
+                                    <div class="project-trending"> World Peace Builder</div>
+                                </div>
+                            </div></li>
+                            <li class="card-trending"><div class="card-info">
+                                <div class="card-item"><img src="img/avatar2.png" alt="Avatar"></div>
+                                <div class="card-info-name">
+                                    <div class="tag-name"><strong>@tenga</strong></div>
+                                    <div class="project-trending"> World Peace Builder</div>
+                                </div>
+                            </div></li>
+                            <li class="card-trending"><div class="card-info">
+                                <div class="card-item"><img src="img/avatar3.png" alt="Avatar"></div>
+                                <div class="card-info-name">
+                                    <div class="tag-name"><strong>@tenga</strong></div>
+                                    <div class="project-trending"> World Peace Builder</div>
+                                </div>
+                            </div></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
